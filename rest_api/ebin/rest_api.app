@@ -1,0 +1,9 @@
+{application,rest_api,
+             [{optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger,plug_cowboy,jason]},
+              {description,"rest_api"},
+              {modules,['Elixir.RestApi','Elixir.RestApi.Application',
+                        'Elixir.RestApi.Router']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.RestApi.Application',[]}}]}.
